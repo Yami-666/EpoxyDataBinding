@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph_main"
+    app:startDestination="@id/galleryFragment">
+
+    <fragment
+        android:id="@+id/galleryFragment"
+        android:name="com.example.epoxydatabinding.gallery.GalleryFragment"
+        android:label="GalleryFragment"
+        tools:layout="@layout/fragment_gallery">
+
+        <action
+            android:id="@+id/showFullImageFragment"
+            app:destination="@id/fullImageFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/fullImageFragment"
+        android:name="com.example.epoxydatabinding.full_image.FullImageFragment"
+        android:label="FullFragment"
+        tools:layout="@layout/fragment_full_image">
+        <argument
+            android:name="imagePath"
+            app:argType="string"
+            app:nullable="false"
+            />
+    </fragment>
+</navigation>

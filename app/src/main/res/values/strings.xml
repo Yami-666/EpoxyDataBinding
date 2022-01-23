@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">EpoxyDataBinding</string>
+    <string name="change_dashboard">change dashboard</string>
+    <string name="search_content">search content</string>
+    <string name="title_audio_files">Аудио файлы</string>
+    <string name="video_files">Видео файлы</string>
+    <string name="image_files">Изображения</string>
+    <string name="in_development">Функционал находится в разработке</string>
+
+    <string name="drawer_open">Open</string>
+    <string name="drawer_close">Close</string>
+    <string name="title_all_files">Все файлы</string>
+</resources>
